@@ -5,5 +5,5 @@ from posts import views as post_views
 urlpatterns = [
     path('hello-world/', local_views.hello_world),
     path('hi/', local_views.hi),
-    path('posts', post_views.list_posts)
+    path('posts/', post_views.list_posts)
 ]

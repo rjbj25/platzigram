@@ -8,5 +8,4 @@ def hello_world(request):
 
 
 def hi(request):
-    import pdb; pdb.set_trace()
     return HttpResponse('Hi')
